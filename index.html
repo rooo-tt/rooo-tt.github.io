@@ -85,7 +85,7 @@
         }
 
         .improductos {
-            height: 500px;
+            width: 100%;
         }
 
         footer {
@@ -114,7 +114,7 @@
 
         .wfijo { /*logo de wsp*/
             position: fixed;
-            bottom: 20px;
+            bottom: 60px;
             right: 20px;
         }
 
@@ -143,10 +143,10 @@
     </style>
 </head>
 
-<body>
+<body style="margin: 0px;">
     <header class="fix" style="border-bottom: 1px solid black"> <!--la parte de arriba-->
         <div id="dd">
-            6 coutas sin interes en todo el sitio
+            6 cuotas sin interes en todo el sitio
         </div>
         <div id="hh">
             <div id="a"><img src="./assets/jorditan.svg" alt="jordan petit" height="30px"></div>
@@ -187,16 +187,16 @@
 
 <!--main: como el cuerpo de la gueb--> 
     <main style="margin-top: 160px;">
-        <div style="padding-top: 10px;">
-            <div style="display: flex; justify-content: left;">
+        <div style="padding-top: 10px; display: flex; align-items: center; justify-content: space-between;">  
+            <div style="display: flex;">
                 productos
             </div>
-            <div style="display: flex; justify-content: right; align-items: center;">
-                <div style="display: flex; align-items: center;">
+            <div style="display: flex; align-content: space-around;">
+                <div style="display: flex; justify-content: end; gap: 10px;">
                     ocultar filtros
                     <img src="./assets/settings-sliders.png" alt="" width="20 px">
                 </div>
-                <div>
+                <div style="padding-left: 10px;">
                     ordenar por mas reciente
                     <img src="./assets/" alt="">
                 </div>
